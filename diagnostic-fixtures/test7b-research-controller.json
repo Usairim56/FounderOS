@@ -1,0 +1,95 @@
+{
+  "test": "TEST 7B",
+  "capturedAt": "2026-08-31T19:32:04.908Z",
+  "sourceFixture": "diagnostic-fixtures/test6e-ahroon-evidence-gaps.json",
+  "sourceIntelligenceResult": {
+    "known": "Ahroon Santhosh is co‑founding a startup called Kríos with two other founders, Michael Sweeney Heffernan and Abraham Sabu Kurian.  The team works mainly at night, meets regularly, and is actively building the product while juggling school commitments.  The posts describe the founders’ camaraderie, their willingness to take risks, and the company’s rapid growth, but they do not disclose the product’s technical details, market positioning, funding status, or specific milestones.",
+    "unknown": "What exactly Kríos does (product features, target market, business model), the current development stage (prototype, beta, launch), any funding or revenue information, the team’s roles and responsibilities, and the roadmap or key upcoming milestones remain unknown.",
+    "next": "Obtain a product overview or pitch deck that explains Kríos’ core offering, target customers, and business strategy."
+  },
+  "controllerPlan": {
+    "research_goal": "Reduce the unresolved uncertainty identified by the intelligence layer by pursuing the stated next step: Obtain a product overview or pitch deck that explains Kríos’ core offering, target customers, and business strategy.",
+    "evidence_category": "What exactly Kríos does (product features, target market, business model), the current development stage (prototype, beta, launch), any funding or revenue information, the team’s roles and responsibilities, and the roadmap or key upcoming milestones remain unknown",
+    "retrieval_strategy": "Plan additional public-evidence retrieval around the intelligence layer's next step: Obtain a product overview or pitch deck that explains Kríos’ core offering, target customers, and business strategy. The retrieval should address this unresolved information: What exactly Kríos does (product features, target market, business model), the current development stage (prototype, beta, launch), any funding or revenue information, the team’s roles and responsibilities, and the roadmap or key upcoming milestones remain unknown.",
+    "reason": "The intelligence layer identifies the following unresolved information: What exactly Kríos does (product features, target market, business model), the current development stage (prototype, beta, launch), any funding or revenue information, the team’s roles and responsibilities, and the roadmap or key upcoming milestones remain unknown. The known context is retained as context rather than replaced: Ahroon Santhosh is co‑founding a startup called Kríos with two other founders, Michael Sweeney Heffernan and Abraham Sabu Kurian.  The team works mainly at night, meets regularly, and is actively building the product while juggling school commitments.  The posts describe the founders’ camaraderie, their willingness to take risks, and the company’s rapid growth, but they do not disclose the product’s technical details, market positioning, funding status, or specific milestones.",
+    "constraints": [
+      "Existing evidence is additive and must not be replaced or discarded.",
+      "New evidence may be added to the existing evidence set.",
+      "Reposts must not be hard-filtered.",
+      "Founder-authorship must not be a hard filter.",
+      "Retrieval owns date-windowing; do not introduce a second six-month cutoff.",
+      "Do not treat unsupported URLs, entities, or facts as established."
+    ],
+    "do_not_do": [
+      "Do not execute retrieval.",
+      "Do not call Groq or any LLM.",
+      "Do not call Bright Data.",
+      "Do not access or mutate the database.",
+      "Do not invoke the production research pipeline.",
+      "Do not generate final synthesis or ASK output.",
+      "Do not rank, select, or discard posts.",
+      "Do not infer facts beyond the supplied intelligence."
+    ],
+    "derivation": {
+      "sourceFields": {
+        "known": "Ahroon Santhosh is co‑founding a startup called Kríos with two other founders, Michael Sweeney Heffernan and Abraham Sabu Kurian.  The team works mainly at night, meets regularly, and is actively building the product while juggling school commitments.  The posts describe the founders’ camaraderie, their willingness to take risks, and the company’s rapid growth, but they do not disclose the product’s technical details, market positioning, funding status, or specific milestones.",
+        "unknown": "What exactly Kríos does (product features, target market, business model), the current development stage (prototype, beta, launch), any funding or revenue information, the team’s roles and responsibilities, and the roadmap or key upcoming milestones remain unknown.",
+        "next": "Obtain a product overview or pitch deck that explains Kríos’ core offering, target customers, and business strategy."
+      },
+      "categoryDerivation": "Derived deterministically from the first unresolved statement in intel.unknown; this is diagnostic composition, not a production taxonomy or classifier.",
+      "strategySignals": [
+        "intel.next directly determines the retrieval objective.",
+        "intel.unknown directly determines the evidence gap being addressed."
+      ],
+      "counterfactual": {
+        "compared": true,
+        "research_goal_differs": true,
+        "retrieval_strategy_differs": true,
+        "reason_differs": true,
+        "passed": true
+      }
+    }
+  },
+  "counterfactual": {
+    "writtenAsFixture": false,
+    "research_goal": true,
+    "retrieval_strategy": true,
+    "reason": true,
+    "passed": true
+  },
+  "validation": {
+    "checks": {
+      "required_fields_exist": true,
+      "research_goal_contains_actual_next": true,
+      "reason_contains_actual_unknown": true,
+      "retrieval_strategy_contains_actual_next": true,
+      "retrieval_strategy_contains_actual_unknown": true,
+      "evidence_category_is_derived": true,
+      "counterfactual_changes_goal": true,
+      "counterfactual_changes_strategy": true,
+      "counterfactual_changes_reason": true,
+      "counterfactual_passed": true,
+      "no_invented_urls": true,
+      "generic_additive_policy": true,
+      "generic_repost_policy": true,
+      "generic_authorship_policy": true,
+      "generic_date_cutoff_policy": true,
+      "generic_unsupported_fact_policy": true,
+      "no_provider_calls": true,
+      "no_database_mutations": true,
+      "no_production_pipeline": true,
+      "no_research_engine": true,
+      "retrieval_not_executed": true
+    },
+    "status": "PASS"
+  },
+  "boundaries": {
+    "llmCalls": 0,
+    "brightDataCalls": 0,
+    "databaseMutations": 0,
+    "productionPipelineInvocations": 0,
+    "researchEngineInvocations": 0,
+    "retrievalExecuted": false
+  },
+  "status": "PASS"
+}
