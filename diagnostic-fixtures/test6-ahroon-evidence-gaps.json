@@ -1,0 +1,64 @@
+{
+  "test": "TEST 6",
+  "capturedAt": "2026-08-29T08:33:24.891Z",
+  "sourceFixture": "diagnostic-fixtures/test4d-ahroon-compacted.json",
+  "postIdsSupplied": [
+    "7498710459660021761",
+    "7498327134676107264",
+    "7497974835789275138",
+    "7497601173051482112",
+    "7497258519570583552",
+    "7495839682195374080",
+    "7494762712376418305"
+  ],
+  "request": {
+    "provider": "Groq",
+    "model": "openai/gpt-oss-20b",
+    "responseFormat": "json_schema",
+    "maxOutputTokens": 1600,
+    "postsSupplied": 7,
+    "estimatedInputTokens": 3751
+  },
+  "response": {
+    "httpStatus": 400,
+    "statusText": "Bad Request",
+    "latencyMs": 2040,
+    "actualInputTokens": null,
+    "actualOutputTokens": null,
+    "messageContentPresent": false,
+    "messageReasoningPresent": false,
+    "rawProviderResponse": {
+      "error": {
+        "message": "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.",
+        "type": "invalid_request_error",
+        "code": "json_validate_failed",
+        "failed_generation": ""
+      }
+    },
+    "messageContent": null,
+    "parsedJson": null,
+    "providerError": {
+      "message": "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.",
+      "type": "invalid_request_error",
+      "code": "json_validate_failed",
+      "failed_generation": ""
+    }
+  },
+  "validation": {
+    "structuredJson": "INVALID",
+    "allExpectedPostIdsSupplied": true,
+    "citationsUseOnlySuppliedIds": false
+  },
+  "boundaries": {
+    "brightDataCalls": 0,
+    "llmCalls": 1,
+    "databaseMutations": 0,
+    "productionPipeline": false,
+    "askGeneration": false,
+    "finalSynthesis": false,
+    "semanticFilteringBeforeLlm": false,
+    "repostFiltering": false
+  },
+  "status": "FAIL",
+  "failureReason": "Groq provider request failed."
+}

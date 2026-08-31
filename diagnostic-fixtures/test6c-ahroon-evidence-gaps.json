@@ -1,0 +1,88 @@
+{
+  "test": "TEST 6C",
+  "capturedAt": "2026-08-29T11:12:48.382Z",
+  "sourceFixture": "diagnostic-fixtures/test4d-ahroon-compacted.json",
+  "postIdsSupplied": [
+    "7498710459660021761",
+    "7498327134676107264",
+    "7497974835789275138",
+    "7497601173051482112",
+    "7497258519570583552",
+    "7495839682195374080",
+    "7494762712376418305"
+  ],
+  "request": {
+    "provider": "Groq",
+    "model": "openai/gpt-oss-20b",
+    "responseFormat": "text",
+    "maxOutputTokens": 1600,
+    "postsSupplied": 7,
+    "estimatedInputTokens": 3765
+  },
+  "response": {
+    "httpStatus": 200,
+    "statusText": "OK",
+    "latencyMs": 2004,
+    "actualInputTokens": 4314,
+    "actualOutputTokens": 1600,
+    "messageContentPresent": false,
+    "messageReasoningPresent": true,
+    "rawProviderResponse": {
+      "id": "chatcmpl-16c4b415-9393-4988-bfbb-f9550f55a784",
+      "object": "chat.completion",
+      "created": 1788001968,
+      "model": "openai/gpt-oss-20b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "",
+            "reasoning": "[REDACTED FROM DIAGNOSTIC]"
+          },
+          "logprobs": null,
+          "finish_reason": "length"
+        }
+      ],
+      "usage": {
+        "queue_time": 0.072989921,
+        "prompt_tokens": 4314,
+        "prompt_time": 0.22947632,
+        "completion_tokens": 1600,
+        "completion_time": 1.637543816,
+        "total_tokens": 5914,
+        "total_time": 1.867020136,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1598
+        }
+      },
+      "usage_breakdown": null,
+      "system_fingerprint": "fp_8b41efc9a3",
+      "x_groq": {
+        "id": "req_01m16khpa7epmrkfsf1z2m4bvs",
+        "seed": 983349107
+      },
+      "service_tier": "on_demand"
+    },
+    "messageContent": "",
+    "parsedJson": null,
+    "providerError": null
+  },
+  "validation": {
+    "structuredJson": "INVALID",
+    "allExpectedPostIdsSupplied": true,
+    "citationsUseOnlySuppliedIds": false
+  },
+  "boundaries": {
+    "brightDataCalls": 0,
+    "llmCalls": 1,
+    "databaseMutations": 0,
+    "productionPipeline": false,
+    "askGeneration": false,
+    "finalSynthesis": false,
+    "semanticFilteringBeforeLlm": false,
+    "repostFiltering": false
+  },
+  "status": "FAIL",
+  "failureReason": "Structured JSON missing, invalid, or cited an unsupplied post ID."
+}

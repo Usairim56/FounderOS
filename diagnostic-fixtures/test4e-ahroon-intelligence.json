@@ -1,0 +1,49 @@
+{
+  "test": "TEST 4E",
+  "capturedAt": "2026-08-27T22:11:31.774Z",
+  "sourceFixture": "diagnostic-fixtures/test4d-ahroon-compacted.json",
+  "postIdsSupplied": [
+    "7498710459660021761",
+    "7498327134676107264",
+    "7497974835789275138",
+    "7497601173051482112",
+    "7497258519570583552",
+    "7495839682195374080",
+    "7494762712376418305"
+  ],
+  "groqRequest": {
+    "provider": "Groq",
+    "model": "openai/gpt-oss-20b",
+    "estimatedInputTokens": 3608,
+    "maxOutputTokens": 1600
+  },
+  "response": {
+    "httpStatus": 200,
+    "statusText": "OK",
+    "latencyMs": 1153,
+    "structuredJson": "VALID",
+    "actualInputTokens": 4335,
+    "actualOutputTokens": 616,
+    "rawResponse": null,
+    "providerError": null,
+    "analysis": {
+      "what": "Building and developing Kríos, a startup",
+      "why": "To innovate, take risks, learn, and create value while enjoying the process",
+      "who": "Ahroon Santhosh, co-founders Michael Sweeney Heffernan and Abraham Sabu Kurian",
+      "current_focus": "Developing Kríos while balancing school commitments and fostering team bonding",
+      "unknowns": [
+        "Product details of Kríos",
+        "Funding status",
+        "Exact business model"
+      ]
+    }
+  },
+  "boundaries": {
+    "brightDataCalls": 0,
+    "llmCalls": 1,
+    "databaseMutations": 0,
+    "productionPipeline": false,
+    "askGeneration": false,
+    "finalSynthesis": false
+  }
+}

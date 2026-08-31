@@ -1,0 +1,357 @@
+{
+  "test": "4D-COMPACTION",
+  "source_fixture": "diagnostic-fixtures/test4b-ahroon-compact.json",
+  "source_post_count": 7,
+  "post_count": 7,
+  "posts": [
+    {
+      "id": "7498710459660021761",
+      "url": "https://www.linkedin.com/posts/ahroon-santhosh_getting-your-hands-dirty-its-so-much-activity-7498710459660021761-Pemb",
+      "date_posted": "2026-08-27T11:58:12.837Z",
+      "user_name": "Ahroon Santhosh",
+      "author_profile_url": "https://ie.linkedin.com/in/ahroon-santhosh?trk=public_post_feed-actor-image",
+      "author_user_id": "ahroon-santhosh",
+      "post_type": "post",
+      "repost": {
+        "repost_hangtags": null,
+        "repost_attachments": null,
+        "tagged_users": null,
+        "tagged_companies": null
+      },
+      "headline": "Getting your hands dirty...",
+      "post_text": "Getting your hands dirty...\n\nIts so much more rewarding than you might expect\n\nHaving a go at building/fixing something while trying to find the resources somewhere in your house is next level fun\n\nThe engineering side of things doesn't get enough credit This might be where the real fun is!\n\np.s if anyone wants to lend me a drone let me know 😁",
+      "tagged_companies": [],
+      "tagged_people": [],
+      "links": [],
+      "engagement": {
+        "likes": 15,
+        "comments": 0
+      },
+      "comments": []
+    },
+    {
+      "id": "7498327134676107264",
+      "url": "https://www.linkedin.com/posts/ahroon-santhosh_the-bread-or-the-key-everyone-sees-this-activity-7498327134676107264-BBmn",
+      "date_posted": "2026-08-26T10:35:01.035Z",
+      "user_name": "Ahroon Santhosh",
+      "author_profile_url": "https://ie.linkedin.com/in/ahroon-santhosh?trk=public_post_feed-actor-image",
+      "author_user_id": "ahroon-santhosh",
+      "post_type": "post",
+      "repost": {
+        "repost_hangtags": null,
+        "repost_attachments": null,
+        "tagged_users": null,
+        "tagged_companies": null
+      },
+      "headline": "The bread or the key?",
+      "post_text": "The bread or the key?\n\nEveryone sees this a little different.\n\nThe explanation I like the most is the bread is tangible. He can grab it, and it feeds him straight away. It's the quick, safe choice.\n\nThe key is the unknown. Who knows what happens once that door swings open? Is it a risk your willing to take?\n\nHaving a startup feels the same way. Stepping into the unknown, unaware of all the hurdles that were coming up. Having to learn things on the go we didn't even know existed.\n\nIt's not for everybody, that's for sure. But hey, I'm more than willing to take the risk.\n\nEveryday is something new to tackle, and I love that.\n\np.s the loaf of bread showing its worth in gold again  iykyk, check the kriosfounders insta ;)",
+      "tagged_companies": [],
+      "tagged_people": [],
+      "links": [],
+      "engagement": {
+        "likes": 28,
+        "comments": 14
+      },
+      "comments": [
+        {
+          "name": "Tanishka K.",
+          "profile_url": "https://in.linkedin.com/in/tanishka-k-b7196a368?trk=public_post_comment_actor-name",
+          "date": "2026-08-26T13:10:56.397Z",
+          "text": "Okay, this hits different when you’re actually living the startup lore."
+        },
+        {
+          "name": "Abraham Sabu Kurian",
+          "profile_url": "https://ie.linkedin.com/in/abraham-sabu-kurian-81b807293?trk=public_post_comment_actor-name",
+          "date": "2026-08-26T11:05:28.297Z",
+          "text": "Should have picked the bread,I was starving 👀"
+        },
+        {
+          "name": "Beliz Ozdal",
+          "profile_url": "https://it.linkedin.com/in/beliz-ozdal-8570a6353?trk=public_post_comment_actor-name",
+          "date": "2026-08-26T11:05:09.146Z",
+          "text": "bro took both"
+        },
+        {
+          "name": "Michael Sweeney Heffernan",
+          "profile_url": "https://ie.linkedin.com/in/michael-sweeney-heffernan-589155354?trk=public_post_comment_actor-name",
+          "date": "2026-08-26T10:43:50.830Z",
+          "text": "That’s my bread buddy"
+        },
+        {
+          "name": "Ashvant Anand",
+          "profile_url": "https://ie.linkedin.com/in/ashvant-anand-331b65392?trk=public_post_comment_actor-name",
+          "date": "2026-08-26T10:37:46.828Z",
+          "text": "Larping the bread"
+        },
+        {
+          "name": "Ayush puri",
+          "profile_url": "https://ie.linkedin.com/in/ayush-puri-4b88b8357?trk=public_post_comment_actor-name",
+          "date": "2026-08-26T11:41:58.036Z",
+          "text": "I see Abraham Sabu Kurian"
+        },
+        {
+          "name": "Raghav Chouhan",
+          "profile_url": "https://in.linkedin.com/in/raghavchouhan?trk=public_post_comment_actor-name",
+          "date": "2026-08-27T03:18:51.411Z",
+          "text": "Totally agree"
+        }
+      ]
+    },
+    {
+      "id": "7497974835789275138",
+      "url": "https://www.linkedin.com/posts/ahroon-santhosh_do-random-side-quests-with-your-team-abraham-activity-7497974835789275138-5LTy",
+      "date_posted": "2026-08-25T11:15:06.340Z",
+      "user_name": "Ahroon Santhosh",
+      "author_profile_url": "https://ie.linkedin.com/in/ahroon-santhosh?trk=public_post_feed-actor-image",
+      "author_user_id": "ahroon-santhosh",
+      "post_type": "post",
+      "repost": {
+        "repost_hangtags": null,
+        "repost_attachments": null,
+        "tagged_users": null,
+        "tagged_companies": null
+      },
+      "headline": "Do random side quests with your team.",
+      "post_text": "Do random side quests with your team.\n\n\nAbraham and I hiked Carrountoohill at 4am the other day. Michael got scared and didn't come 🥲\n\nThese bonding moments, where we were looking at the mountains, and just discussing life, mean more than you might think.\n\nIt's important to step back from business and just say, 'how you been recently'. \n\nWe're founders yes, but also friends, and we gotta remember that sometimes.\n\nCheck up on the people around you 🫡\n\np.s check out the view too",
+      "tagged_companies": [],
+      "tagged_people": [
+        {
+          "name": "Abraham",
+          "link": "https://ie.linkedin.com/in/abraham-sabu-kurian-81b807293?trk=public_post-text"
+        }
+      ],
+      "links": [
+        "https://ie.linkedin.com/in/abraham-sabu-kurian-81b807293?trk=public_post-text"
+      ],
+      "engagement": {
+        "likes": 55,
+        "comments": 18
+      },
+      "comments": [
+        {
+          "name": "Mirza Ahsan",
+          "profile_url": "https://uk.linkedin.com/in/about-mirzaahsan?trk=public_post_comment_actor-name",
+          "date": "2026-08-25T14:21:49.814Z",
+          "text": "Spot on, Ahroon. The strongest business foundations are often built outside the boardroom during these exact 'side quests.' When you prioritize the human connection and check in on each other, the operational alignment naturally follows. Brilliant reminder and an incredible view!"
+        },
+        {
+          "name": "Michael Sweeney Heffernan",
+          "profile_url": "https://ie.linkedin.com/in/michael-sweeney-heffernan-589155354?trk=public_post_comment_actor-name",
+          "date": "2026-08-25T11:23:14.362Z",
+          "text": "Disclaimer: parents didn’t allow me to"
+        },
+        {
+          "name": "Sean Daly",
+          "profile_url": "https://ie.linkedin.com/in/sean-daly-a02362378?trk=public_post_comment_actor-name",
+          "date": "2026-08-25T11:38:00.543Z",
+          "text": "Fair play lads"
+        },
+        {
+          "name": "Beliz Ozdal",
+          "profile_url": "https://it.linkedin.com/in/beliz-ozdal-8570a6353?trk=public_post_comment_actor-name",
+          "date": "2026-08-25T11:34:34.587Z",
+          "text": "damn how high is that hill?"
+        },
+        {
+          "name": "Ayush puri",
+          "profile_url": "https://ie.linkedin.com/in/ayush-puri-4b88b8357?trk=public_post_comment_actor-name",
+          "date": "2026-08-25T12:08:34.289Z",
+          "text": "🔥🔥"
+        },
+        {
+          "name": "Tanishka K.",
+          "profile_url": "https://in.linkedin.com/in/tanishka-k-b7196a368?trk=public_post_comment_actor-name",
+          "date": "2026-08-25T13:17:17.677Z",
+          "text": "This sounds like a good time.!"
+        },
+        {
+          "name": "Thomas D.",
+          "profile_url": "https://ca.linkedin.com/in/thomas-d-97221a327?trk=public_post_comment_actor-name",
+          "date": "2026-08-25T19:50:35.838Z",
+          "text": "out here mogging on top of the hill"
+        },
+        {
+          "name": "Christopher Harvey",
+          "profile_url": "https://www.linkedin.com/in/christopherrossharvey?trk=public_post_comment_actor-name",
+          "date": "2026-08-25T20:07:05.889Z",
+          "text": "That's one amazing view and time offs screen is always recommended."
+        },
+        {
+          "name": "Finan Cahill",
+          "profile_url": "https://ie.linkedin.com/in/finan-cahill-389243414?trk=public_post_comment_actor-name",
+          "date": "2026-08-26T14:56:50.646Z",
+          "text": "Savage stuff Gentlemen. Literally climbing to new heights and setting the bar high 👏🏻🇮🇪"
+        }
+      ]
+    },
+    {
+      "id": "7497601173051482112",
+      "url": "https://www.linkedin.com/posts/ahroon-santhosh_were-in-trouble-school-starts-next-week-activity-7497601173051482112-Gh22",
+      "date_posted": "2026-08-24T10:30:18.285Z",
+      "user_name": "Ahroon Santhosh",
+      "author_profile_url": "https://ie.linkedin.com/in/ahroon-santhosh?trk=public_post_feed-actor-image",
+      "author_user_id": "ahroon-santhosh",
+      "post_type": "post",
+      "repost": {
+        "repost_hangtags": null,
+        "repost_attachments": null,
+        "tagged_users": null,
+        "tagged_companies": null
+      },
+      "headline": "We're in trouble.",
+      "post_text": "We're in trouble.\n\n\nSchool starts next week.\n\nWe're switching from working solely on Kríos, to having to sprinkle in some school work :(\n\nBut we knew this was coming, and we're ready.\n\nIs it optimal? Probably not.\n\nBut it is what it is.\n\nOne things for sure, Kríos will keep growing, and growing fast at that.",
+      "tagged_companies": [
+        {
+          "name": "Kríos",
+          "link": "https://ie.linkedin.com/company/kr%C3%ADos?trk=public_post-text"
+        }
+      ],
+      "tagged_people": [],
+      "links": [
+        "https://ie.linkedin.com/company/kr%C3%ADos?trk=public_post-text"
+      ],
+      "engagement": {
+        "likes": 44,
+        "comments": 8
+      },
+      "comments": [
+        {
+          "name": "Syeda Hafsa",
+          "profile_url": "https://pk.linkedin.com/in/syedahafsa12?trk=public_post_comment_actor-name",
+          "date": "2026-08-25T02:38:27.110Z",
+          "text": "I get this 😭 I actually left school and I’m just doing my GED now, so I could put more time into building.\n\nStill figuring out if that was the smartest decision lol, but so far I don’t regret it."
+        },
+        {
+          "name": "Beliz Ozdal",
+          "profile_url": "https://it.linkedin.com/in/beliz-ozdal-8570a6353?trk=public_post_comment_actor-name",
+          "date": "2026-08-24T15:40:10.576Z",
+          "text": "same issue here, school seems like such a waste of time when you’re building something else"
+        },
+        {
+          "name": "Luka Grisolia",
+          "profile_url": "https://it.linkedin.com/in/lukagrisolia?trk=public_post_comment_actor-name",
+          "date": "2026-08-24T23:12:01.533Z",
+          "text": "The cooking shall go on"
+        },
+        {
+          "name": "Iji John",
+          "profile_url": "https://ng.linkedin.com/in/iji-john-021b13233?trk=public_post_comment_actor-name",
+          "date": "2026-08-25T03:48:34.762Z",
+          "text": "Well I graduated from college this month so I can’t resonate to mortal problems.\n\nI’m at god level now lmao 🙃😅"
+        },
+        {
+          "name": "Raghav Chouhan",
+          "profile_url": "https://in.linkedin.com/in/raghavchouhan?trk=public_post_comment_actor-name",
+          "date": "2026-08-25T06:00:51.283Z",
+          "text": "i can totally relate dude 😭"
+        }
+      ]
+    },
+    {
+      "id": "7497258519570583552",
+      "url": "https://www.linkedin.com/posts/ahroon-santhosh_filming-in-public-is-top-10-most-embarrassing-activity-7497258519570583552-tQ0J",
+      "date_posted": "2026-08-23T11:48:43.369Z",
+      "user_name": "Ahroon Santhosh",
+      "author_profile_url": "https://ie.linkedin.com/in/ahroon-santhosh?trk=public_post_feed-actor-image",
+      "author_user_id": "ahroon-santhosh",
+      "post_type": "post",
+      "repost": {
+        "repost_hangtags": null,
+        "repost_attachments": null,
+        "tagged_users": null,
+        "tagged_companies": null
+      },
+      "headline": ".",
+      "post_text": ".\nFilming in public is top 10 most embarrassing things when you first start 😂\n\n\nWe were in Tralee a few weeks back and decided to film.\n\nWhipped out the camera stick and mics, and were feeling great \n\nUntil we got hit with the \"sorry, why are you filming me\" :(\n\nJust one of them things you gotta get over, but still rattles you the first time",
+      "tagged_companies": [],
+      "tagged_people": [],
+      "links": [],
+      "engagement": {
+        "likes": 27,
+        "comments": 0
+      },
+      "comments": []
+    },
+    {
+      "id": "7495839682195374080",
+      "url": "https://www.linkedin.com/posts/ahroon-santhosh_just-3-boys-with-big-ideas-some-of-the-activity-7495839682195374080-T6Fr",
+      "date_posted": "2026-08-19T13:50:46.173Z",
+      "user_name": "Ahroon Santhosh",
+      "author_profile_url": "https://ie.linkedin.com/in/ahroon-santhosh?trk=public_post_feed-actor-image",
+      "author_user_id": "ahroon-santhosh",
+      "post_type": "post",
+      "repost": {
+        "repost_hangtags": null,
+        "repost_attachments": null,
+        "tagged_users": null,
+        "tagged_companies": null
+      },
+      "headline": "Just 3 boys with big ideas.",
+      "post_text": "Just 3 boys with big ideas.\n\nSome of the stuff we think up seem unimaginable to the people around.\n\nAnd tbh, I get where they're coming from. It's not normal to do what we do.\n\nBut then again, we don't care about fitting in, or being a certain way so people like us.\n\nWe're just us, and that attracts the right people to us naturally.\n\nHit me up if you think you're one of them.",
+      "tagged_companies": [],
+      "tagged_people": [],
+      "links": [],
+      "engagement": {
+        "likes": 42,
+        "comments": 3
+      },
+      "comments": [
+        {
+          "name": "Muhammad Usairim",
+          "profile_url": "https://pk.linkedin.com/in/muhammad-usairim-a83230271?trk=public_post_comment_actor-name",
+          "date": "2026-08-19T19:43:07.255Z",
+          "text": "“To be exceptional, by definition, you can’t be normal.”\n\nHonestly, I’ve always loved the chemistry and energy you guys have. I’ve been looking for an environment like this for a while, and this really hit home."
+        },
+        {
+          "name": "Sean Mullaney",
+          "profile_url": "https://ie.linkedin.com/in/seanmullaney?trk=public_post_comment_actor-name",
+          "date": "2026-08-19T20:08:53.541Z",
+          "text": "Love what you guys are doing and the energy of the young founder scene in Ireland.  Come drop by Seapoint HQ and show us what you're building!"
+        }
+      ]
+    },
+    {
+      "id": "7494762712376418305",
+      "url": "https://www.linkedin.com/posts/ahroon-santhosh_these-moments-kr%C3%ADos-was-made-like-this-activity-7494762712376418305-2j4w",
+      "date_posted": "2026-08-16T14:31:16.559Z",
+      "user_name": "Ahroon Santhosh",
+      "author_profile_url": "https://ie.linkedin.com/in/ahroon-santhosh?trk=public_post_feed-actor-image",
+      "author_user_id": "ahroon-santhosh",
+      "post_type": "post",
+      "repost": {
+        "repost_hangtags": null,
+        "repost_attachments": null,
+        "tagged_users": null,
+        "tagged_companies": null
+      },
+      "headline": "These moments>",
+      "post_text": "These moments>\n\nKríos was made like this. Just us 3, meeting up and having laidback conversation, or so it seemed.\n\nThe work was mainly done during the night, but our daily meetups are almost just as essential.\n\nThis is when we  bounce ideas, compare what we've been working on and tackle any new issues that have come up.\n\nKríos is not one person. It's all 3 of us. Michael, Abraham and myself.\n\nWe're constantly in touch with each other, keeping Kríos on the right track.\n\nThat's why we move as fast as we do.",
+      "tagged_companies": [
+        {
+          "name": "Kríos",
+          "link": "https://ie.linkedin.com/company/kr%C3%ADos?trk=public_post-text"
+        }
+      ],
+      "tagged_people": [
+        {
+          "name": "Michael",
+          "link": "https://ie.linkedin.com/in/michael-sweeney-heffernan-589155354?trk=public_post-text"
+        },
+        {
+          "name": "Abraham",
+          "link": "https://ie.linkedin.com/in/abraham-sabu-kurian-81b807293?trk=public_post-text"
+        }
+      ],
+      "links": [
+        "https://ie.linkedin.com/company/kr%C3%ADos?trk=public_post-text",
+        "https://ie.linkedin.com/in/michael-sweeney-heffernan-589155354?trk=public_post-text",
+        "https://ie.linkedin.com/in/abraham-sabu-kurian-81b807293?trk=public_post-text"
+      ],
+      "engagement": {
+        "likes": 35,
+        "comments": 0
+      },
+      "comments": []
+    }
+  ]
+}

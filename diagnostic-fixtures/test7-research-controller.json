@@ -1,0 +1,66 @@
+{
+  "test": "TEST 7",
+  "description": "Intelligence layer -> research controller handoff (deterministic plan, no execution).",
+  "capturedAt": "2026-08-29T18:55:53.856Z",
+  "sourceFixture": "diagnostic-fixtures/test6e-ahroon-evidence-gaps.json",
+  "sourceIntelligenceResultFound": true,
+  "sourceIntelligenceStatus": "PASS",
+  "sourceIntelligenceResult": {
+    "known": "Ahroon Santhosh is co‑founding a startup called Kríos with two other founders, Michael Sweeney Heffernan and Abraham Sabu Kurian.  The team works mainly at night, meets regularly, and is actively building the product while juggling school commitments.  The posts describe the founders’ camaraderie, their willingness to take risks, and the company’s rapid growth, but they do not disclose the product’s technical details, market positioning, funding status, or specific milestones.",
+    "unknown": "What exactly Kríos does (product features, target market, business model), the current development stage (prototype, beta, launch), any funding or revenue information, the team’s roles and responsibilities, and the roadmap or key upcoming milestones remain unknown.",
+    "next": "Obtain a product overview or pitch deck that explains Kríos’ core offering, target customers, and business strategy."
+  },
+  "controllerPlan": {
+    "research_goal": "Reduce the highest-priority uncertainty identified by the intelligence layer by acquiring additional public evidence about the company. Intelligence-layer next step: Obtain a product overview or pitch deck that explains Kríos’ core offering, target customers, and business strategy.",
+    "evidence_category": "company_product_information",
+    "retrieval_strategy": "Plan (do not execute) additional retrieval of publicly available company/product information: official company or product material, founder or company announcements, launch material (including YC-related launch posts), and other relevant public evidence that describes the company's core offering, target customers, and business strategy. No specific URL or source is asserted, because none is present in the supplied evidence.",
+    "reason": "The intelligence layer established what is known but reported that the company's product, market, business model, stage, funding, roles, and roadmap remain unknown. Acquiring company/product information directly targets the largest current uncertainty without discarding the existing evidence.",
+    "constraints": [
+      "Existing seven-post Ahroon evidence set is preserved and remains part of the evidence set.",
+      "Next action must ADD evidence, not replace or delete existing evidence.",
+      "Reposts remain eligible evidence and must NOT be hard-filtered; usefulness of a repost is an intelligence-layer judgment.",
+      "Evidence need not be authored by Ahroon; co-founder posts, company/launch/YC announcements, and other relevant public evidence are eligible.",
+      "Preserve existing retrieval-level date constraints; retrieval (Bright Data) owns date windowing. Do NOT introduce a new/second six-month cutoff at the controller layer.",
+      "No specific website, URL, or document is treated as fact unless it is present in the supplied evidence."
+    ],
+    "do_not_do": [
+      "Do not execute retrieval or call Bright Data.",
+      "Do not call Groq or any LLM.",
+      "Do not access or mutate the database.",
+      "Do not run the production research pipeline.",
+      "Do not generate ASK / final synthesis.",
+      "Do not rank, select, or discard individual posts.",
+      "Do not hard-filter reposts.",
+      "Do not require Ahroon authorship as a hard filter.",
+      "Do not introduce a second six-month cutoff.",
+      "Do not infer facts beyond the TEST 6E structured result."
+    ]
+  },
+  "validation": {
+    "checks": {
+      "research_goal_non_empty": true,
+      "evidence_category_non_empty": true,
+      "retrieval_strategy_non_empty": true,
+      "reason_non_empty": true,
+      "constraints_is_array": true,
+      "do_not_do_is_array": true,
+      "requests_additional_evidence": true,
+      "does_not_exclude_reposts": true,
+      "no_ahroon_authorship_hard_filter": true,
+      "no_six_month_cutoff": true,
+      "no_unsupported_url_as_fact": true,
+      "no_provider_calls": true,
+      "no_database_mutations": true
+    },
+    "status": "PASS"
+  },
+  "boundaries": {
+    "llmCalls": 0,
+    "brightDataCalls": 0,
+    "databaseMutations": 0,
+    "productionPipeline": false,
+    "retrievalExecuted": false,
+    "retryOrRepair": false
+  },
+  "status": "PASS"
+}

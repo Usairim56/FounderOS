@@ -1,0 +1,69 @@
+{
+  "test": "TEST 6D",
+  "capturedAt": "2026-08-29T18:39:42.909Z",
+  "sourceFixture": "diagnostic-fixtures/test4d-ahroon-compacted.json",
+  "postIdsSupplied": [
+    "7498710459660021761",
+    "7498327134676107264",
+    "7497974835789275138",
+    "7497601173051482112",
+    "7497258519570583552",
+    "7495839682195374080",
+    "7494762712376418305"
+  ],
+  "request": {
+    "provider": "Groq",
+    "model": "openai/gpt-oss-20b",
+    "responseFormat": "text",
+    "maxOutputTokens": 8192,
+    "reasoningEffort": "low",
+    "postsSupplied": 7,
+    "estimatedInputTokens": 3825
+  },
+  "response": {
+    "httpStatus": 413,
+    "statusText": "Payload Too Large",
+    "latencyMs": 57,
+    "finishReason": null,
+    "actualInputTokens": null,
+    "actualOutputTokens": null,
+    "reasoningTokens": null,
+    "messageContentPresent": false,
+    "messageReasoningPresent": false,
+    "rawProviderResponse": {
+      "error": {
+        "message": "Request too large for model `openai/gpt-oss-20b` in organization `org_01m0yxxqdvek29h0gk4rv7jsgs` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 12561, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+        "type": "tokens",
+        "code": "rate_limit_exceeded"
+      }
+    },
+    "messageContent": null,
+    "parsedJson": null,
+    "providerError": {
+      "message": "Request too large for model `openai/gpt-oss-20b` in organization `org_01m0yxxqdvek29h0gk4rv7jsgs` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 12561, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "type": "tokens",
+      "code": "rate_limit_exceeded"
+    }
+  },
+  "validation": {
+    "structuredJson": "INVALID",
+    "messageContentNonEmpty": false,
+    "jsonParse": "FAIL",
+    "requiredFields": "FAIL",
+    "allExpectedPostIdsSupplied": true,
+    "citationsUseOnlySuppliedIds": false
+  },
+  "boundaries": {
+    "brightDataCalls": 0,
+    "llmCalls": 1,
+    "databaseMutations": 0,
+    "productionPipeline": false,
+    "askGeneration": false,
+    "finalSynthesis": false,
+    "semanticFilteringBeforeLlm": false,
+    "repostFiltering": false,
+    "retryOrRepair": false
+  },
+  "status": "FAIL",
+  "failureReason": "Groq provider request failed."
+}

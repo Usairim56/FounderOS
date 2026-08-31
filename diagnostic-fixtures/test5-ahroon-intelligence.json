@@ -1,0 +1,64 @@
+{
+  "test": "TEST 5",
+  "capturedAt": "2026-08-27T22:21:47.950Z",
+  "sourceFixture": "diagnostic-fixtures/test4d-ahroon-compacted.json",
+  "postIdsSupplied": [
+    "7498710459660021761",
+    "7498327134676107264",
+    "7497974835789275138",
+    "7497601173051482112",
+    "7497258519570583552",
+    "7495839682195374080",
+    "7494762712376418305"
+  ],
+  "request": {
+    "provider": "Groq",
+    "model": "openai/gpt-oss-20b",
+    "responseFormat": "json_schema",
+    "maxOutputTokens": 1600,
+    "postsSupplied": 7,
+    "estimatedInputTokens": 3726
+  },
+  "response": {
+    "httpStatus": 400,
+    "statusText": "Bad Request",
+    "latencyMs": 2512,
+    "actualInputTokens": null,
+    "actualOutputTokens": null,
+    "messageContentPresent": false,
+    "messageReasoningPresent": false,
+    "rawProviderResponse": {
+      "error": {
+        "message": "Generated JSON does not match the expected schema. Please adjust your prompt. See 'failed_generation' for more details. Error: jsonschema: '' does not validate with /required: missing properties: 'next_evidence'",
+        "type": "invalid_request_error",
+        "code": "json_validate_failed",
+        "failed_generation": "{\"what\":{\"summary\":\"Kríos is a startup co-founded by Ahroon Santhosh, Michael Sweeney Heffernan, and Abraham Sabu Kurian. The founders are actively building and growing the company while balancing other commitments such as school.\",\"confidence\":\"high\",\"evidence_post_ids\":[\"7497601173051482112\",\"7494762712376418305\"]},\"why\":{\"summary\":\"The founders are motivated by a desire to take risks, build something tangible, and create a culture that values engineering, teamwork, and personal growth. They emphasize stepping into the unknown, learning on the go, and fostering strong interpersonal bonds within the team.\",\"confidence\":\"high\",\"evidence_post_ids\":[\"7498327134676107264\",\"7497974835789275138\",\"7495839682195374080\"]},\"who\":[{\"name\":\"Ahroon Santhosh\",\"role_or_relationship\":\"Founder\",\"confidence\":\"high\",\"evidence_post_ids\":[\"7497601173051482112\",\"7494762712376418305\"]},{\"name\":\"Michael Sweeney Heffernan\",\"role_or_relationship\":\"Co‑Founder\",\"confidence\":\"high\",\"evidence_post_ids\":[\"7497974835789275138\",\"7494762712376418305\"]},{\"name\":\"Abraham Sabu Kurian\",\"role_or_relationship\":\"Co‑Founder\",\"confidence\":\"high\",\"evidence_post_ids\":[\"7497974835789275138\",\"7494762712376418305\"]}],\"current_focus\":{\"summary\":\"Balancing academic commitments with product development and team cohesion. Focus on engineering work, rapid iteration, and maintaining strong daily communication among the three founders.\",\"confidence\":\"high\",\"evidence_post_ids\":[\"7498710459660021761\",\"7497601173051482112\",\"7494762712376418305\"]},\"important_evidence\":[{\"post_id\":\"7497601173051482112\",\"reason\":\"Explicitly mentions Kríos and the impact of school on work focus.\"},{\"post_id\":\"7494762712376418305\",\"reason\":\"Describes Kríos’ creation process, team structure, and daily collaboration.\"},{\"post_id\":\"7498710459660021761\",\"reason\":\"Highlights engineering focus and hands‑on building mindset.\"},{\"post_id\":\"7497974835789275138\",\"reason\":\"Shows team bonding and informal collaboration outside work.\"},{\"post_id\":\"7495839682195374080\",\"reason\":\"Reveals founders’ identity as a small, close‑knit team with a shared vision.\"}],\"lower_value_evidence\":[{\"post_id\":\"7498327134676107264\",\"reason\":\"General startup mindset discussion, not specific to Kríos.\"},{\"post_id\":\"7497258519570583552\",\"reason\":\"Personal anecdote about filming embarrassment, unrelated to company specifics.\"}],\"unknowns\":[{\"question\":\"What specific product or service does Kríos provide?\",\"why_unknown\":\"No post contains a description of the product’s features, market, or value proposition.\"}]}"
+      }
+    },
+    "messageContent": null,
+    "parsedJson": null,
+    "providerError": {
+      "message": "Generated JSON does not match the expected schema. Please adjust your prompt. See 'failed_generation' for more details. Error: jsonschema: '' does not validate with /required: missing properties: 'next_evidence'",
+      "type": "invalid_request_error",
+      "code": "json_validate_failed",
+      "failed_generation": "{\"what\":{\"summary\":\"Kríos is a startup co-founded by Ahroon Santhosh, Michael Sweeney Heffernan, and Abraham Sabu Kurian. The founders are actively building and growing the company while balancing other commitments such as school.\",\"confidence\":\"high\",\"evidence_post_ids\":[\"7497601173051482112\",\"7494762712376418305\"]},\"why\":{\"summary\":\"The founders are motivated by a desire to take risks, build something tangible, and create a culture that values engineering, teamwork, and personal growth. They emphasize stepping into the unknown, learning on the go, and fostering strong interpersonal bonds within the team.\",\"confidence\":\"high\",\"evidence_post_ids\":[\"7498327134676107264\",\"7497974835789275138\",\"7495839682195374080\"]},\"who\":[{\"name\":\"Ahroon Santhosh\",\"role_or_relationship\":\"Founder\",\"confidence\":\"high\",\"evidence_post_ids\":[\"7497601173051482112\",\"7494762712376418305\"]},{\"name\":\"Michael Sweeney Heffernan\",\"role_or_relationship\":\"Co‑Founder\",\"confidence\":\"high\",\"evidence_post_ids\":[\"7497974835789275138\",\"7494762712376418305\"]},{\"name\":\"Abraham Sabu Kurian\",\"role_or_relationship\":\"Co‑Founder\",\"confidence\":\"high\",\"evidence_post_ids\":[\"7497974835789275138\",\"7494762712376418305\"]}],\"current_focus\":{\"summary\":\"Balancing academic commitments with product development and team cohesion. Focus on engineering work, rapid iteration, and maintaining strong daily communication among the three founders.\",\"confidence\":\"high\",\"evidence_post_ids\":[\"7498710459660021761\",\"7497601173051482112\",\"7494762712376418305\"]},\"important_evidence\":[{\"post_id\":\"7497601173051482112\",\"reason\":\"Explicitly mentions Kríos and the impact of school on work focus.\"},{\"post_id\":\"7494762712376418305\",\"reason\":\"Describes Kríos’ creation process, team structure, and daily collaboration.\"},{\"post_id\":\"7498710459660021761\",\"reason\":\"Highlights engineering focus and hands‑on building mindset.\"},{\"post_id\":\"7497974835789275138\",\"reason\":\"Shows team bonding and informal collaboration outside work.\"},{\"post_id\":\"7495839682195374080\",\"reason\":\"Reveals founders’ identity as a small, close‑knit team with a shared vision.\"}],\"lower_value_evidence\":[{\"post_id\":\"7498327134676107264\",\"reason\":\"General startup mindset discussion, not specific to Kríos.\"},{\"post_id\":\"7497258519570583552\",\"reason\":\"Personal anecdote about filming embarrassment, unrelated to company specifics.\"}],\"unknowns\":[{\"question\":\"What specific product or service does Kríos provide?\",\"why_unknown\":\"No post contains a description of the product’s features, market, or value proposition.\"}]}"
+    }
+  },
+  "validation": {
+    "structuredJson": "INVALID",
+    "allExpectedPostIdsSupplied": true,
+    "citationsUseOnlySuppliedIds": false
+  },
+  "boundaries": {
+    "brightDataCalls": 0,
+    "llmCalls": 1,
+    "databaseMutations": 0,
+    "productionPipeline": false,
+    "askGeneration": false,
+    "finalSynthesis": false,
+    "semanticFilteringBeforeLlm": false,
+    "repostFiltering": false
+  },
+  "status": "FAIL",
+  "failureReason": "Groq provider request failed."
+}

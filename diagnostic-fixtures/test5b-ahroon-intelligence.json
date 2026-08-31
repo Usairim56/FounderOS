@@ -1,0 +1,112 @@
+{
+  "test": "TEST 5B",
+  "capturedAt": "2026-08-27T22:43:08.405Z",
+  "sourceFixture": "diagnostic-fixtures/test4d-ahroon-compacted.json",
+  "postIdsSupplied": [
+    "7498710459660021761",
+    "7498327134676107264",
+    "7497974835789275138",
+    "7497601173051482112",
+    "7497258519570583552",
+    "7495839682195374080",
+    "7494762712376418305"
+  ],
+  "request": {
+    "provider": "Groq",
+    "model": "openai/gpt-oss-20b",
+    "responseFormat": "json_schema",
+    "maxOutputTokens": 1600,
+    "postsSupplied": 7,
+    "estimatedInputTokens": 3719
+  },
+  "response": {
+    "httpStatus": 200,
+    "statusText": "OK",
+    "latencyMs": 1625,
+    "actualInputTokens": 4449,
+    "actualOutputTokens": 1128,
+    "messageContentPresent": true,
+    "messageReasoningPresent": true,
+    "rawProviderResponse": {
+      "id": "chatcmpl-7da7cce4-58e5-4010-ad36-682561f530f2",
+      "object": "chat.completion",
+      "created": 1787870588,
+      "model": "openai/gpt-oss-20b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"what\":\"Kríos is a startup co‑founded by Ahroon Santhosh, Michael Sweeney Heffernan, and Abraham Sabu Kurian. The founders describe it as a collaborative engineering effort that is being built and iterated on by the three of them.\",\"why\":\"Ahroon expresses a passion for hands‑on engineering, learning through experimentation, and embracing the unknown that comes with building a startup. He values risk‑taking, continuous learning, and the personal growth that comes from the startup journey.\",\"who\":[\"Ahroon Santhosh\",\"Michael Sweeney Heffernan\",\"Abraham Sabu Kurian\"],\"current_focus\":\"Developing and iterating on Kríos while balancing academic commitments. The focus includes engineering tasks, team bonding activities, and maintaining momentum on the product.\",\"important_evidence\":[\"7497601173051482112\",\"7494762712376418305\",\"7498327134676107264\",\"7497974835789275138\",\"7498710459660021761\",\"7495839682195374080\"],\"unknowns\":[\"Specific product features or market problem Kríos addresses\",\"Business model, revenue streams, or pricing strategy\",\"Funding status, capital raised, or investor relationships\",\"Customer acquisition, user base, or traction metrics\",\"Stage of product development (prototype, MVP, launch)\"]}",
+            "reasoning": "[REDACTED FROM DIAGNOSTIC]"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "queue_time": 0.048893144,
+        "prompt_tokens": 4449,
+        "prompt_time": 0.223428785,
+        "completion_tokens": 1128,
+        "completion_time": 1.192538617,
+        "total_tokens": 5577,
+        "total_time": 1.415967402,
+        "completion_tokens_details": {
+          "reasoning_tokens": 840
+        }
+      },
+      "usage_breakdown": null,
+      "system_fingerprint": "fp_2b688e7cc3",
+      "x_groq": {
+        "id": "req_01m12p89trecbavktkt69n8s6n",
+        "seed": 1883027404
+      },
+      "service_tier": "on_demand"
+    },
+    "messageContent": "{\"what\":\"Kríos is a startup co‑founded by Ahroon Santhosh, Michael Sweeney Heffernan, and Abraham Sabu Kurian. The founders describe it as a collaborative engineering effort that is being built and iterated on by the three of them.\",\"why\":\"Ahroon expresses a passion for hands‑on engineering, learning through experimentation, and embracing the unknown that comes with building a startup. He values risk‑taking, continuous learning, and the personal growth that comes from the startup journey.\",\"who\":[\"Ahroon Santhosh\",\"Michael Sweeney Heffernan\",\"Abraham Sabu Kurian\"],\"current_focus\":\"Developing and iterating on Kríos while balancing academic commitments. The focus includes engineering tasks, team bonding activities, and maintaining momentum on the product.\",\"important_evidence\":[\"7497601173051482112\",\"7494762712376418305\",\"7498327134676107264\",\"7497974835789275138\",\"7498710459660021761\",\"7495839682195374080\"],\"unknowns\":[\"Specific product features or market problem Kríos addresses\",\"Business model, revenue streams, or pricing strategy\",\"Funding status, capital raised, or investor relationships\",\"Customer acquisition, user base, or traction metrics\",\"Stage of product development (prototype, MVP, launch)\"]}",
+    "parsedJson": {
+      "what": "Kríos is a startup co‑founded by Ahroon Santhosh, Michael Sweeney Heffernan, and Abraham Sabu Kurian. The founders describe it as a collaborative engineering effort that is being built and iterated on by the three of them.",
+      "why": "Ahroon expresses a passion for hands‑on engineering, learning through experimentation, and embracing the unknown that comes with building a startup. He values risk‑taking, continuous learning, and the personal growth that comes from the startup journey.",
+      "who": [
+        "Ahroon Santhosh",
+        "Michael Sweeney Heffernan",
+        "Abraham Sabu Kurian"
+      ],
+      "current_focus": "Developing and iterating on Kríos while balancing academic commitments. The focus includes engineering tasks, team bonding activities, and maintaining momentum on the product.",
+      "important_evidence": [
+        "7497601173051482112",
+        "7494762712376418305",
+        "7498327134676107264",
+        "7497974835789275138",
+        "7498710459660021761",
+        "7495839682195374080"
+      ],
+      "unknowns": [
+        "Specific product features or market problem Kríos addresses",
+        "Business model, revenue streams, or pricing strategy",
+        "Funding status, capital raised, or investor relationships",
+        "Customer acquisition, user base, or traction metrics",
+        "Stage of product development (prototype, MVP, launch)"
+      ]
+    },
+    "providerError": null
+  },
+  "validation": {
+    "structuredJson": "VALID",
+    "allExpectedPostIdsSupplied": true,
+    "citationsUseOnlySuppliedIds": true
+  },
+  "boundaries": {
+    "brightDataCalls": 0,
+    "llmCalls": 1,
+    "databaseMutations": 0,
+    "productionPipeline": false,
+    "askGeneration": false,
+    "finalSynthesis": false,
+    "semanticFilteringBeforeLlm": false,
+    "repostFiltering": false
+  },
+  "status": "PASS",
+  "failureReason": null
+}

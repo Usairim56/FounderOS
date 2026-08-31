@@ -1,0 +1,107 @@
+{
+  "test": "TEST 6E",
+  "capturedAt": "2026-08-29T18:47:04.439Z",
+  "sourceFixture": "diagnostic-fixtures/test4d-ahroon-compacted.json",
+  "postIdsSupplied": [
+    "7498710459660021761",
+    "7498327134676107264",
+    "7497974835789275138",
+    "7497601173051482112",
+    "7497258519570583552",
+    "7495839682195374080",
+    "7494762712376418305"
+  ],
+  "request": {
+    "provider": "Groq",
+    "model": "openai/gpt-oss-20b",
+    "responseFormat": "text",
+    "maxOutputTokens": 3000,
+    "reasoningEffort": "low",
+    "postsSupplied": 7,
+    "preflight": {
+      "estimatedInputTokens": 3825,
+      "reservedOutputTokens": 3000,
+      "estimatedTotalReserved": 6825,
+      "groqTpmLimit": 8000,
+      "classification": "GREEN"
+    }
+  },
+  "response": {
+    "httpStatus": 200,
+    "statusText": "OK",
+    "latencyMs": 667,
+    "finishReason": "stop",
+    "actualInputTokens": 4369,
+    "actualOutputTokens": 240,
+    "reasoningTokens": 49,
+    "messageContentPresent": true,
+    "messageReasoningPresent": true,
+    "rawProviderResponse": {
+      "id": "chatcmpl-82fb678a-ba86-4c1d-9bbe-5297fdbb744e",
+      "object": "chat.completion",
+      "created": 1788029224,
+      "model": "openai/gpt-oss-20b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"known\":\"Ahroon Santhosh is co‑founding a startup called Kríos with two other founders, Michael Sweeney Heffernan and Abraham Sabu Kurian.  The team works mainly at night, meets regularly, and is actively building the product while juggling school commitments.  The posts describe the founders’ camaraderie, their willingness to take risks, and the company’s rapid growth, but they do not disclose the product’s technical details, market positioning, funding status, or specific milestones.\",\"unknown\":\"What exactly Kríos does (product features, target market, business model), the current development stage (prototype, beta, launch), any funding or revenue information, the team’s roles and responsibilities, and the roadmap or key upcoming milestones remain unknown.\",\"next\":\"Obtain a product overview or pitch deck that explains Kríos’ core offering, target customers, and business strategy.\"}",
+            "reasoning": "[REASONING PRESENT — REDACTED FROM DIAGNOSTIC]"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "queue_time": 0.104162681,
+        "prompt_tokens": 4369,
+        "prompt_time": 0.23712629,
+        "completion_tokens": 240,
+        "completion_time": 0.250860826,
+        "total_tokens": 4609,
+        "total_time": 0.487987116,
+        "completion_tokens_details": {
+          "reasoning_tokens": 49
+        }
+      },
+      "usage_breakdown": null,
+      "system_fingerprint": "fp_4a35f7bd1b",
+      "x_groq": {
+        "id": "req_01m17dhgvqenw93b0yy4zpbdrx",
+        "seed": 265024201
+      },
+      "service_tier": "on_demand"
+    },
+    "messageContent": "{\"known\":\"Ahroon Santhosh is co‑founding a startup called Kríos with two other founders, Michael Sweeney Heffernan and Abraham Sabu Kurian.  The team works mainly at night, meets regularly, and is actively building the product while juggling school commitments.  The posts describe the founders’ camaraderie, their willingness to take risks, and the company’s rapid growth, but they do not disclose the product’s technical details, market positioning, funding status, or specific milestones.\",\"unknown\":\"What exactly Kríos does (product features, target market, business model), the current development stage (prototype, beta, launch), any funding or revenue information, the team’s roles and responsibilities, and the roadmap or key upcoming milestones remain unknown.\",\"next\":\"Obtain a product overview or pitch deck that explains Kríos’ core offering, target customers, and business strategy.\"}",
+    "parsedJson": {
+      "known": "Ahroon Santhosh is co‑founding a startup called Kríos with two other founders, Michael Sweeney Heffernan and Abraham Sabu Kurian.  The team works mainly at night, meets regularly, and is actively building the product while juggling school commitments.  The posts describe the founders’ camaraderie, their willingness to take risks, and the company’s rapid growth, but they do not disclose the product’s technical details, market positioning, funding status, or specific milestones.",
+      "unknown": "What exactly Kríos does (product features, target market, business model), the current development stage (prototype, beta, launch), any funding or revenue information, the team’s roles and responsibilities, and the roadmap or key upcoming milestones remain unknown.",
+      "next": "Obtain a product overview or pitch deck that explains Kríos’ core offering, target customers, and business strategy."
+    },
+    "providerError": null
+  },
+  "validation": {
+    "preflight": "GREEN",
+    "structuredJson": "VALID",
+    "messageContentNonEmpty": true,
+    "finishReasonNotLength": true,
+    "jsonParse": "PASS",
+    "requiredFields": "PASS",
+    "allExpectedPostIdsSupplied": true,
+    "citationsUseOnlySuppliedIds": true
+  },
+  "boundaries": {
+    "brightDataCalls": 0,
+    "llmCalls": 1,
+    "databaseMutations": 0,
+    "productionPipeline": false,
+    "askGeneration": false,
+    "finalSynthesis": false,
+    "semanticFilteringBeforeLlm": false,
+    "repostFiltering": false,
+    "retryOrRepair": false
+  },
+  "status": "PASS",
+  "failureReason": null
+}
